@@ -1,5 +1,10 @@
 # README
 
+## EXAMPLE:
+### version : 0.0.5 ''
+
+![Preview](https://raw.githubusercontent.com/twopill/deepSpace-vscodetheme/main/example-theme.jpg)
+
 ##  How to install?
 
 * ***code --install-extension*** .\deepspace-0.0.1.vsix ( -0.0.1 it's only example, the version change...)
