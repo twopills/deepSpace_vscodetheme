@@ -11,7 +11,7 @@
 
 ## Recommended Settings?
 
-* <a hfref="https://github.com/tonsky/FiraCode">Fira Code Repo</a>
+* <a href="https://github.com/tonsky/FiraCode">Fira Code Repo</a>
 
 ```
     "editor.fontFamily": "Fira Code",
