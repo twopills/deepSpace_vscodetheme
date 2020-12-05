@@ -1,0 +1,17 @@
+.mtk3, .mtk4 {
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    font-style: normal;
+    color: #57a649!important;
+}
+.comment {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 1.2em;
+  color: #57a649!important;
+}
+.comment:not(.punctuation) {
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    color: #57a649!important;
+}

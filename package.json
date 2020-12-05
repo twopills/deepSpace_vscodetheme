@@ -1,0 +1,22 @@
+{
+    "name": "deepspace",
+    "displayName": "deepspace",
+    "description": "You can't understand",
+    "publisher": "twopill",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DeepSpace",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DeepSpace-color-theme.json"
+            }
+        ]
+    }
+}
