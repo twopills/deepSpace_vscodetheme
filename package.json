@@ -3,7 +3,7 @@
     "displayName": "deepspace",
     "description": "You can't understand",
     "publisher": "twopill",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "engines": {
         "vscode": "^1.51.0"
     },

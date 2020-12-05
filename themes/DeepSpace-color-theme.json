@@ -52,7 +52,7 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#5EFC8D"
 			}
 		},
 		{
@@ -441,7 +441,14 @@
 				"fontStyle": ""
 			},
 		},
-		
+		{
+			"name": "Class html",
+			"scope" : "entity.other.attribute-name.html",
+			"settings": {
+				"foreground": "#8EF9F3",
+				"fontStyle": ""
+			}
+		}
 		
 		
 		
