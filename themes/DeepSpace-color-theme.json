@@ -379,13 +379,72 @@
 			"settings": {
 				"foreground": "#569cd6"
 			}
-		}
-	],
-	"semanticTokenColors": {
-		"newOperator": "#d4d4d4",
-		"stringLiteral": "#ce9178",
-		"customLiteral": "#D4D4D4",
-		"numberLiteral": "#b5cea8",
-	}
+		},
+		{
+			"name": "Name of import inside brackets",
+			"scope": ["variable.other.readwrite.alias.ts",
+					  "meta.object-literal.key.ts", 
+					  "variable.object.property.ts",
+					  "variable.other.readwrite.ts",
+					  "entity.name.variable"
+					],
+			"settings": {
+				"foreground": "#68d7fc",
+				"fontStyle": ""
+			},
+		},
+		{
+			"name": "From import ts",
+			"scope": ["keyword.control.from.ts","keyword.control.import.ts"],
+			"settings": {
+				"foreground": "#b361a9",
+				"fontStyle": ""
+			},
+		},
+		{
+			"name": "Entity name, for example @Component",
+			"scope": [
+					  "entity.name.type.class.ts", 
+					  "support.type.primitive.ts",
+					  "entity.name.type.ts"
+					],
+			"settings": {
+				"foreground": "#4cb977",
+				"fontStyle": ""
+			},
+		},
+		{
+			"name": "Function",
+			"scope": ["entity.name.function", "entity.name.function.ts"],
+			"settings": {
+				"foreground": "#DCDCAA",
+				"fontStyle": ""
+			},
+		},
+		{
+			"name": "Conditional",
+			"scope": ["keyword.control.conditional.ts",
+					"keyword.control.trycatch.ts"	,
+					"keyword.control.flow.ts"	
+			],
+			"settings": {
+				"foreground": "#C586C0",
+				"fontStyle": ""
+			},
+		},
+		{
+			"name": "const variable",
+			"scope": ["variable.other.constant.ts"	, "variable.other.constant.object.ts", "variable.parameter.ts","variable.other.object.property.ts"
+			],
+			"settings": {
+				"foreground": "#4FC1FF",
+				"fontStyle": ""
+			},
+		},
+		
+		
+		
+		
+	]
 	
 }
