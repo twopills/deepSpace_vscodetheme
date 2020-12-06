@@ -24,3 +24,5 @@
     "editor.renderWhitespace": "all",
 ```
 **Enjoy!**
+
+thanks @MattiaCintura for the support ( <a href="https://github.com/MattiaCintura">Mattia Git</a> ❤️ )
