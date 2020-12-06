@@ -14,8 +14,9 @@
 
 ## Recommended Settings?
 
-* <a href="https://github.com/tonsky/FiraCode">Fira Code Repo</a>
+* **Font** :  <a href="https://github.com/tonsky/FiraCode">Fira Code Repo</a>
 
+* Open vscode, go to _Settings_ > Search on the top bar: _settings.json_ and copy & paste this code below:
 ```
     "editor.fontFamily": "Fira Code",
     "editor.fontWeight": "400",
