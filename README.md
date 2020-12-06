@@ -1,6 +1,7 @@
 
 ## EXAMPLE:
-### version : 0.0.5 ''
+![](https://img.shields.io/github/package-json/v/twopill/deepSpace-vscodetheme?color=A2D3C2&style=for-the-badge)
+
 
 ![Preview](https://raw.githubusercontent.com/twopill/deepSpace-vscodetheme/main/example-theme.jpg)
 
