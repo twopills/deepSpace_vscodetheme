@@ -2,8 +2,9 @@
     "name": "deepspace",
     "displayName": "deepspace",
     "description": "You can't understand",
+    "icon": "./icon_image.jpg",
     "publisher": "twopill",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "engines": {
         "vscode": "^1.51.0"
     },
