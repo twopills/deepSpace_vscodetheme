@@ -34,7 +34,8 @@ Install on **Visual Studio Market** -> link: <a href="https://marketplace.visual
     "editor.cursorBlinking": "expand",
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 2,
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "selection",
+    "editor.fontLigatures": true
 ```
 
 **Enjoy!**
