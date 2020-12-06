@@ -7,6 +7,8 @@
 
 ##  How to install?
 
+Install on **Visual Studio Market** -> link: <a href="https://marketplace.visualstudio.com/items?itemName=twopill.deepspace">Click me</a>
+
 * **Clone** this repo
 * Go inside the repo
 * Open terminal _inside_ the repo
