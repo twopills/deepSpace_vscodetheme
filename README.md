@@ -41,4 +41,4 @@ Install on **Visual Studio Market** -> link: <a href="https://marketplace.visual
 
 ----------------------------------------------------
 
-Thanks ![](https://img.shields.io/github/followers/MattiaCintura?label=Mattia%20Cintura&style=social) for the support ❤️( <a href="https://github.com/MattiaCintura"> him Git Profile</a> )  
+Thanks ![](https://img.shields.io/github/followers/MattiaCintura?label=Mattia%20Cintura&style=social) for the support ❤️( <a href="https://github.com/MattiaCintura"> his Git Profile</a> )  
