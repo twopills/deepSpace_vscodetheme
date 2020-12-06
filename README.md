@@ -1,5 +1,5 @@
 
-## EXAMPLE:
+# EXAMPLE:
 ![](https://img.shields.io/github/package-json/v/twopill/deepSpace-vscodetheme?color=A2D3C2&style=for-the-badge)
 
 
@@ -26,4 +26,4 @@
 ```
 **Enjoy!**
 
-thanks @MattiaCintura for the support ( <a href="https://github.com/MattiaCintura">Mattia Git</a> ❤️ )
+thanks **@MattiaCintura** for the support ( <a href="https://github.com/MattiaCintura">Mattia Git</a> ❤️ )
