@@ -8,7 +8,7 @@
 ## 📌  How to install?
 
 
-###  From VS Market:
+### 📍 From VS Market:
 
 Install on **Visual Studio Market** -> link: <a href="https://marketplace.visualstudio.com/items?itemName=twopill.deepspace">Click me</a> 
 
