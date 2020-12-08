@@ -2,7 +2,7 @@
     "name": "deepspace",
     "displayName": "Deep Space",
     "description": "You can't understand",
-    "icon": "icon_image.jpg",
+    "icon": "deep_space_logo.jpg",
     "publisher": "twopill",
     "version": "0.0.7",
     "engines": {

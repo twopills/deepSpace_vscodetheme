@@ -434,7 +434,7 @@
 		},
 		{
 			"name": "const variable",
-			"scope": ["variable.other.constant.ts"	, "variable.other.constant.object.ts", "variable.parameter.ts","variable.other.object.property.ts"
+			"scope": ["variable.other.constant.ts"	, "variable.other.constant.object.ts", "variable.parameter.ts","variable.other.object.property.ts", "variable.other.object.ts"
 			],
 			"settings": {
 				"foreground": "#4FC1FF",
@@ -448,7 +448,27 @@
 				"foreground": "#8EF9F3",
 				"fontStyle": ""
 			}
+		},
+		{
+			"name": "property ts",
+			"scope" : "variable.other.property.ts",
+			"settings": {
+				"foreground": "#8EF9F3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "property ts",
+			"scope" : "support.function.ts",
+			"settings": {
+				"foreground": "#8EF9F3",
+				"fontStyle": ""
+			}
 		}
+		
+		
+
+		
 		
 		
 		
