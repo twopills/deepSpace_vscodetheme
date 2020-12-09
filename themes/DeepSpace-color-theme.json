@@ -52,7 +52,7 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#5EFC8D"
+				"foreground": "#76cf22"
 			}
 		},
 		{
@@ -389,8 +389,7 @@
 					  "entity.name.variable"
 					],
 			"settings": {
-				"foreground": "#68d7fc",
-				"fontStyle": ""
+				"foreground": "#68d7fc"
 			},
 		},
 		{
@@ -404,12 +403,11 @@
 		{
 			"name": "Entity name, for example @Component",
 			"scope": [
-					  "entity.name.type.class.ts", 
 					  "support.type.primitive.ts",
 					  "entity.name.type.ts"
 					],
 			"settings": {
-				"foreground": "#4cb977",
+				"foreground": "#00da86",
 				"fontStyle": ""
 			},
 		},
@@ -434,7 +432,11 @@
 		},
 		{
 			"name": "const variable",
-			"scope": ["variable.other.constant.ts"	, "variable.other.constant.object.ts", "variable.parameter.ts","variable.other.object.property.ts", "variable.other.object.ts"
+			"scope": ["variable.other.constant.ts"	, 
+				"variable.other.constant.object.ts",
+				 "variable.parameter.ts",
+				 "variable.other.object.property.ts",
+				  "variable.other.object.ts", "support.type.property-name.css"
 			],
 			"settings": {
 				"foreground": "#4FC1FF",
@@ -443,7 +445,8 @@
 		},
 		{
 			"name": "Class html",
-			"scope" : "entity.other.attribute-name.html",
+			"scope" : ["entity.other.attribute-name.html", 
+						"variable.scss"],
 			"settings": {
 				"foreground": "#8EF9F3",
 				"fontStyle": ""
@@ -459,12 +462,96 @@
 		},
 		{
 			"name": "property ts",
-			"scope" : "support.function.ts",
+			"scope" : ["support.function.ts", 
+				"entity.name.function.ts", 
+				"entity.other.attribute-name.class.css",
+				"entity.name.tag.css",
+				"entity.other.attribute-name.pseudo-element.css",
+				"entity.name.function.scss"
+			],
 			"settings": {
-				"foreground": "#8EF9F3",
+				"foreground": "#ffe343",
 				"fontStyle": ""
 			}
+		},
+		{
+			"name": "Support variable property",
+			"scope": ["support.variable.property.ts"],
+			"settings": {
+				"foreground": "#4671ff",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "String quoted",
+			"scope": [
+						"string.quoted.single.ts",
+						"string.quoted.double.ts",
+						"string.quoted.double.html",
+						"string.quoted.single.html",
+						"meta.attribute-selector.scss",
+						"support.constant.property-value.css",
+						"support.function.misc.scss",
+						"support.constant.font-name.css",
+						"constant.other.color.rgb-value.hex.css"
+					],
+			"settings": {
+				"foreground": "#c48a81",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "{{}}",
+			"scope": "punctuation.definition.block.ts",
+			"settings": {
+				"foreground": "#dadada",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "(mouseover)",
+			"scope": "entity.other.ng-binding-name.event.html",
+			"settings": {
+				"foreground": "#ffbb00"
+			}
+		},
+		{
+			"name": "nome classe e tipo TS",
+			"scope": ["entity.name.type.class.ts", "entity.other.inherited-class.ts","entity.other.attribute-name.scss"],
+			"settings": {
+				"foreground": "#00da86",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "//",
+			"scope": "punctuation.definition.comment.ts",
+			"settings": {
+				"foreground": "#dd4c35"
+			}
+		},
+		{
+			"name": "Numeri",
+			"scope": [
+						"constant.numeric.decimal.ts",
+						"constant.numeric.css"
+					],
+			"settings": {
+				"foreground": "#92d170"
+			}
+		},
+		{
+			"name": "@keyframe",
+			"scope": ["keyword.control.at-rule.keyframes.scss",
+						"keyword.control.at-rule.media.scss",
+					"keyword.control.at-rule.import.scss"],
+			"settings": {
+				"foreground": "#ac79ff",
+				"fontStyle": "italic"
+			}
 		}
+
+
 		
 		
 

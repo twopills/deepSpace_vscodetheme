@@ -1,8 +1,8 @@
 {
     "name": "deepspace",
     "displayName": "Deep Space",
-    "description": "You can't understand",
-    "icon": "deep_space_logo.jpg",
+    "description": "The coolest theme you've ever seen!",
+    "icon": "deep_space_logo.png",
     "publisher": "twopill",
     "version": "0.0.7",
     "engines": {
