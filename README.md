@@ -1,9 +1,4 @@
-
-# EXAMPLE:
-
-![](https://img.shields.io/github/package-json/v/twopill/deepSpace-vscodetheme?color=A2D3C2&style=for-the-badge)
-
-![Preview](https://raw.githubusercontent.com/twopill/deepSpace-vscodetheme/main/example-theme.jpg)
+## For the preview view the last part of this readme 
 
 ## 📌  How to install?
 
@@ -41,5 +36,11 @@ Install on **Visual Studio Market** -> link: <a href="https://marketplace.visual
 **Enjoy!**
 
 ----------------------------------------------------
+
+# EXAMPLE:
+
+![Preview](https://github.com/twopill/deepSpace-vscodetheme/blob/main/scss_style.png?raw=true)
+![Preview](https://github.com/twopill/deepSpace-vscodetheme/blob/main/typescript_style.png)
+![Preview](https://github.com/twopill/deepSpace-vscodetheme/blob/main/html_style.png)
 
 Thanks ![](https://img.shields.io/github/followers/MattiaCintura?label=Mattia%20Cintura&style=social) for the support ❤️( <a href="https://github.com/MattiaCintura"> his Git Profile</a> )  
