@@ -1,3 +1,5 @@
+![](https://img.shields.io/github/package-json/v/twopill/deepSpace-vscodetheme?color=A2D3C2&style=for-the-badge)
+
 ## For the preview view the last part of this readme 
 
 ## 📌  How to install?
