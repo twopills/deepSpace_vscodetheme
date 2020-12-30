@@ -18,8 +18,8 @@
 		"input.border": "#607d8b",
 		"editor.selectionBackground": "#607d8b50",
 		"sideBar.border": "#607d8b0e",
-		"textLink.foreground": "#dd4c35"
-		
+		"textLink.foreground": "#dd4c35",
+		"dropdown.border": "#fc9b9b"
 	},
 	"tokenColors": [
 		{
@@ -524,13 +524,6 @@
 			}
 		},
 		{
-			"name": "//",
-			"scope": "punctuation.definition.comment.ts",
-			"settings": {
-				"foreground": "#dd4c35"
-			}
-		},
-		{
 			"name": "Numeri",
 			"scope": [
 						"constant.numeric.decimal.ts",
@@ -551,14 +544,55 @@
 			}
 		}
 
-
+	
 		
 		
-
-		
-		
-		
-		
+	],
+	"better-comments.tags": [
+		{
+		  "tag": "!",
+		  "color": "#DD4C35",
+		  "strikethrough": false,
+		  "underline": false,
+		  "backgroundColor": "transparent",
+		  "bold": true,
+		  "italic": false
+		},
+		{
+		  "tag": "?",
+		  "color": "#3498DB",
+		  "strikethrough": false,
+		  "underline": false,
+		  "backgroundColor": "transparent",
+		  "bold": false,
+		  "italic": false
+		},
+		{
+		  "tag": "//",
+		  "color": "#474747",
+		  "strikethrough": true,
+		  "underline": false,
+		  "backgroundColor": "transparent",
+		  "bold": false,
+		  "italic": true
+		},
+		{
+		  "tag": "todo",
+		  "color": "#ffbb00",
+		  "strikethrough": false,
+		  "underline": false,
+		  "backgroundColor": "transparent",
+		  "bold": false,
+		  "italic": false
+		},{
+			"tag": "fixme",
+			"color": "#DD4C35",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": true,
+			"italic": false
+		  },
 	]
 	
 }
