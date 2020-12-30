@@ -542,6 +542,23 @@
 				"foreground": "#ac79ff",
 				"fontStyle": "italic"
 			}
+		},
+		{
+			"name": "entity name type module",
+			"scope": ["entity.name.type.module.ts", 
+					  "entity.name.type.enum.ts",
+					  "entity.name.type.interface.ts"
+					],
+			"settings": {
+				"foreground": "#0ACDFF"
+			}
+		},
+		{
+			"name": "TYPE INTERFACE | ABSTRACT",
+			"scope": ["storage.type.interface.ts", "storage.modifier.ts"],
+			"settings": {
+				"foreground": "#ac79ff"
+			}
 		}
 
 	
