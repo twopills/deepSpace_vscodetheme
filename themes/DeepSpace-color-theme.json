@@ -329,7 +329,8 @@
 				"keyword.operator.alignas",
 				"keyword.operator.instanceof",
 				"keyword.operator.logical.python",
-				"keyword.operator.wordlike"
+				"keyword.operator.wordlike",
+				"keyword.type"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -394,7 +395,7 @@
 		},
 		{
 			"name": "From import ts",
-			"scope": ["keyword.control.from.ts","keyword.control.import.ts"],
+			"scope": ["keyword.control.from.ts","keyword.control.import.ts", "keyword.import.go"],
 			"settings": {
 				"foreground": "#b361a9",
 				"fontStyle": ""
@@ -435,8 +436,9 @@
 			"scope": ["variable.other.constant.ts"	, 
 				"variable.other.constant.object.ts",
 				 "variable.parameter.ts",
+				 "variable.parameter.js",
 				 "variable.other.object.property.ts",
-				  "variable.other.object.ts", "support.type.property-name.css"
+				  "variable.other.object.ts", "support.type.property-name.css", "variable.other.object.property.js"
 			],
 			"settings": {
 				"foreground": "#4FC1FF",
@@ -454,7 +456,7 @@
 		},
 		{
 			"name": "property ts",
-			"scope" : ["variable.other.property.ts","variable.other.object.property.ts"],
+			"scope" : ["variable.other.property.ts","variable.other.object.property.ts", "variable.other.assignment.go", "source.go", "variable.other.object.js", "variable.other.constant.js", "variable.other.property.js", "variable.other.readwrite.js"],
 			"settings": {
 				"foreground": "#8EF9F3",
 				"fontStyle": ""
@@ -467,7 +469,10 @@
 				"entity.other.attribute-name.class.css",
 				"entity.name.tag.css",
 				"entity.other.attribute-name.pseudo-element.css",
-				"entity.name.function.scss"
+				"entity.name.function.scss",
+				"support.function",
+				"entity.name.function",
+				"support.class.builtin.ts"
 			],
 			"settings": {
 				"foreground": "#ffe343",
@@ -541,6 +546,22 @@
 			"settings": {
 				"foreground": "#ac79ff",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "JSON name ts",
+			"scope": [
+				"support.constant.json.ts"],
+				"settings": {
+					"foreground": "#ac79ff",
+					"fontStyle": "bold"
+				}
+		},
+		{
+			"name": "constant.character.other",
+			"scope":["constant.character.other", "constant.other.property.ts", "variable.other.constant.property.ts"],
+			"settings": {
+				"foreground": "#9cd8f8"
 			}
 		}
 
