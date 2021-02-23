@@ -549,6 +549,7 @@
 			}
 		},
 		{
+<<<<<<< HEAD
 			"name": "JSON name ts",
 			"scope": [
 				"support.constant.json.ts"],
@@ -562,6 +563,22 @@
 			"scope":["constant.character.other", "constant.other.property.ts", "variable.other.constant.property.ts"],
 			"settings": {
 				"foreground": "#9cd8f8"
+=======
+			"name": "entity name type module",
+			"scope": ["entity.name.type.module.ts", 
+					  "entity.name.type.enum.ts",
+					  "entity.name.type.interface.ts"
+					],
+			"settings": {
+				"foreground": "#0ACDFF"
+			}
+		},
+		{
+			"name": "TYPE INTERFACE | ABSTRACT",
+			"scope": ["storage.type.interface.ts", "storage.modifier.ts"],
+			"settings": {
+				"foreground": "#ac79ff"
+>>>>>>> f4a365f10785106e84ad5ff8c98f8b6acd04b383
 			}
 		}
 

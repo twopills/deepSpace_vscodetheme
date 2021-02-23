@@ -1,3 +1,5 @@
+![](https://img.shields.io/github/package-json/v/twopill/deepSpace-vscodetheme?color=A2D3C2&style=for-the-badge)
+
 ## For the preview view the last part of this readme 
 
 ## 📌  How to install?
@@ -17,6 +19,7 @@ Install on **Visual Studio Market** -> link: <a href="https://marketplace.visual
 
 ## 📌 Recommended Settings?
 
+* 📍 **Color font personalizate** : <a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments">Better comment extensions link</a>
 * 📍 **Font** :  <a href="https://github.com/tonsky/FiraCode">Fira Code Repo</a>
 
 * 📍 Open vscode, go to _Settings_ > Search on the top bar: _settings.json_ and copy & paste this code below:
@@ -39,7 +42,6 @@ Install on **Visual Studio Market** -> link: <a href="https://marketplace.visual
 
 # EXAMPLE:
 
-![Preview](https://github.com/twopill/deepSpace-vscodetheme/blob/main/scss_style.png?raw=true)
 ![Preview](https://github.com/twopill/deepSpace-vscodetheme/blob/main/typescript_style.png)
 ![Preview](https://github.com/twopill/deepSpace-vscodetheme/blob/main/html_style.png)
 
