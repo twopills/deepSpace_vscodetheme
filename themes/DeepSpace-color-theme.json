@@ -5,11 +5,11 @@
 	"colors": {
 		"editor.background": "#252525",
 		"editor.foreground": "#f1ffee",
-		"activityBarBadge.background": "#dd4c35",
+		"activityBarBadge.background": "#e42e12",
 		"activityBar.activeBackground": "#252525",
-		"sideBarTitle.foreground": "#dd4c35",
+		"sideBarTitle.foreground": "#df361c",
 		"activityBar.background": "#252525",
-		"activityBar.activeBorder": "#dd4c35",
+		"activityBar.activeBorder": "#df361c",
 		"window.inactiveBorder": "#f1ffee3b",
 		"titleBar.activeBackground": "#252525",
 		"statusBar.background": "#252525",
@@ -18,8 +18,14 @@
 		"input.border": "#607d8b",
 		"editor.selectionBackground": "#607d8b50",
 		"sideBar.border": "#607d8b0e",
-		"textLink.foreground": "#dd4c35",
-		"dropdown.border": "#fc9b9b"
+		"textLink.foreground": "#df361c",
+		"dropdown.border": "#fc9b9b",
+		"statusBar.debuggingBackground" : "#f8a60e",
+		"statusBar.debuggingForeground" : "#000000",
+		"terminal.selectionBackground": "#b9b8ab",
+		"terminalCursor.foreground": "#fff",
+		"terminal.foreground": "#daf2f8",
+		"terminal.ansiBrightBlack": "#4573a7"
 	},
 	"tokenColors": [
 		{
@@ -383,10 +389,10 @@
 		},
 		{
 			"name": "Name of import inside brackets",
-			"scope": ["variable.other.readwrite.alias.ts",
-					  "meta.object-literal.key.ts", 
-					  "variable.object.property.ts",
-					  "variable.other.readwrite.ts",
+			"scope": ["variable.other.readwrite.alias ",
+					  "meta.object-literal.key ", 
+					  "variable.object.property ",
+					  "variable.other.readwrite ",
 					  "entity.name.variable"
 					],
 			"settings": {
@@ -395,7 +401,7 @@
 		},
 		{
 			"name": "From import ts",
-			"scope": ["keyword.control.from.ts","keyword.control.import.ts", "keyword.import.go"],
+			"scope": ["keyword.control.from ","keyword.control.import ", "keyword.import.go"],
 			"settings": {
 				"foreground": "#b361a9",
 				"fontStyle": ""
@@ -404,8 +410,9 @@
 		{
 			"name": "Entity name, for example @Component",
 			"scope": [
-					  "support.type.primitive.ts",
-					  "entity.name.type.ts"
+					  "support.type.primitive",
+					  "entity.name.type",
+					  "support.type.builtin"
 					],
 			"settings": {
 				"foreground": "#00da86",
@@ -414,7 +421,7 @@
 		},
 		{
 			"name": "Function",
-			"scope": ["entity.name.function", "entity.name.function.ts"],
+			"scope": ["entity.name.function", "entity.name.function "],
 			"settings": {
 				"foreground": "#DCDCAA",
 				"fontStyle": ""
@@ -422,9 +429,9 @@
 		},
 		{
 			"name": "Conditional",
-			"scope": ["keyword.control.conditional.ts",
-					"keyword.control.trycatch.ts"	,
-					"keyword.control.flow.ts"	
+			"scope": ["keyword.control.conditional ",
+					"keyword.control.trycatch "	,
+					"keyword.control.flow "	
 			],
 			"settings": {
 				"foreground": "#C586C0",
@@ -433,12 +440,12 @@
 		},
 		{
 			"name": "const variable",
-			"scope": ["variable.other.constant.ts"	, 
-				"variable.other.constant.object.ts",
-				 "variable.parameter.ts",
+			"scope": ["variable.other.constant "	, 
+				"variable.other.constant.object ",
+				 "variable.parameter ",
 				 "variable.parameter.js",
-				 "variable.other.object.property.ts",
-				  "variable.other.object.ts", "support.type.property-name.css", "variable.other.object.property.js"
+				 "variable.other.object.property ",
+				  "variable.other.object ", "support.type.property-name.css", "variable.other.object.property.js"
 			],
 			"settings": {
 				"foreground": "#4FC1FF",
@@ -456,7 +463,7 @@
 		},
 		{
 			"name": "property ts",
-			"scope" : ["variable.other.property.ts","variable.other.object.property.ts", "variable.other.assignment.go", "source.go", "variable.other.object.js", "variable.other.constant.js", "variable.other.property.js", "variable.other.readwrite.js"],
+			"scope" : ["variable.other.property ","variable.other.object.property ", "variable.other.assignment.go", "source.go", "variable.other.object.js", "variable.other.constant.js", "variable.other.property.js", "variable.other.readwrite.js"],
 			"settings": {
 				"foreground": "#8EF9F3",
 				"fontStyle": ""
@@ -464,15 +471,15 @@
 		},
 		{
 			"name": "property ts",
-			"scope" : ["support.function.ts", 
-				"entity.name.function.ts", 
+			"scope" : ["support.function ", 
+				"entity.name.function ", 
 				"entity.other.attribute-name.class.css",
 				"entity.name.tag.css",
 				"entity.other.attribute-name.pseudo-element.css",
 				"entity.name.function.scss",
 				"support.function",
 				"entity.name.function",
-				"support.class.builtin.ts"
+				"support.class.builtin "
 			],
 			"settings": {
 				"foreground": "#ffe343",
@@ -481,7 +488,7 @@
 		},
 		{
 			"name": "Support variable property",
-			"scope": ["support.variable.property.ts"],
+			"scope": ["support.variable.property "],
 			"settings": {
 				"foreground": "#4671ff",
 				"fontStyle": ""
@@ -490,8 +497,8 @@
 		{
 			"name": "String quoted",
 			"scope": [
-						"string.quoted.single.ts",
-						"string.quoted.double.ts",
+						"string.quoted.single ",
+						"string.quoted.double ",
 						"string.quoted.double.html",
 						"string.quoted.single.html",
 						"meta.attribute-selector.scss",
@@ -499,6 +506,7 @@
 						"support.function.misc.scss",
 						"support.constant.font-name.css",
 						"constant.other.color.rgb-value.hex.css"
+						, "source.ignore"
 					],
 			"settings": {
 				"foreground": "#c48a81",
@@ -507,7 +515,7 @@
 		},
 		{
 			"name": "{{}}",
-			"scope": "punctuation.definition.block.ts",
+			"scope": "punctuation.definition.block ",
 			"settings": {
 				"foreground": "#dadada",
 				"fontStyle": ""
@@ -522,7 +530,7 @@
 		},
 		{
 			"name": "nome classe e tipo TS",
-			"scope": ["entity.name.type.class.ts", "entity.other.inherited-class.ts","entity.other.attribute-name.scss"],
+			"scope": ["entity.name.type.class ", "entity.other.inherited-class ","entity.other.attribute-name.scss"],
 			"settings": {
 				"foreground": "#00da86",
 				"fontStyle": ""
@@ -531,7 +539,7 @@
 		{
 			"name": "Numeri",
 			"scope": [
-						"constant.numeric.decimal.ts",
+						"constant.numeric.decimal ",
 						"constant.numeric.css"
 					],
 			"settings": {
@@ -551,7 +559,7 @@
 		{
 			"name": "JSON name ts",
 			"scope": [
-				"support.constant.json.ts"],
+				"support.constant.json "],
 				"settings": {
 					"foreground": "#ac79ff",
 					"fontStyle": "bold"
@@ -559,20 +567,45 @@
 		},
 		{
 			"name": "constant.character.other",
-			"scope":["constant.character.other", "constant.other.property.ts", "variable.other.constant.property.ts"],
+			"scope":["constant.character.other", "constant.other.property ", "variable.other.constant.property "],
 			"settings": {
 				"foreground": "#9cd8f8"
 			}
+		},{
+			"name": "ternary",
+			"scope":["keyword.operator.ternary"],
+			"settings": {
+				"foreground": "#C586C0"
+			}
+		},
+		{
+			"name": "&& ||",
+			"scope":["keyword.operator.logical"],
+			"settings": {
+				"foreground": "#ffda0a"
+			}
+		},
+		{
+			"name": "Name interface",
+			"scope":["entity.name.type.interface", "keyword.control.export", "support.type.object.module"],
+			"settings": {
+				"foreground": "#C586C0"
+			}
+		},
+		{
+			"name": "Scss url",
+			"scope":["support.function.misc.scss"],
+			"settings": {
+				"foreground": "#f7f302"
+			}
 		}
 
-	
-		
-		
+
 	],
 	"better-comments.tags": [
 		{
 		  "tag": "!",
-		  "color": "#DD4C35",
+		  "color": "#df361c",
 		  "strikethrough": false,
 		  "underline": false,
 		  "backgroundColor": "transparent",
@@ -607,7 +640,7 @@
 		  "italic": false
 		},{
 			"tag": "fixme",
-			"color": "#DD4C35",
+			"color": "#df361c",
 			"strikethrough": false,
 			"underline": false,
 			"backgroundColor": "transparent",
