@@ -42,7 +42,12 @@ Install on **Visual Studio Market** -> link: <a href="https://marketplace.visual
 
 # EXAMPLE:
 
-![Preview](https://github.com/twopill/deepSpace-vscodetheme/blob/main/typescript_style.png)
-![Preview](https://github.com/twopill/deepSpace-vscodetheme/blob/main/html_style.png)
+![image](https://user-images.githubusercontent.com/58731523/112748936-6d49a300-8fbf-11eb-9170-e3adb2fd4fec.png)
+
+
+1.0.1 Now Go !
+
+![image](https://user-images.githubusercontent.com/58731523/112748928-6589fe80-8fbf-11eb-9c3a-b3827a980e9a.png)
+
 
 Thanks ![](https://img.shields.io/github/followers/MattiaCintura?label=Mattia%20Cintura&style=social) for the support ❤️( <a href="https://github.com/MattiaCintura"> his Git Profile</a> )  
