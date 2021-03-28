@@ -4,7 +4,7 @@
     "description": "The coolest theme you've ever seen!",
     "icon": "deep_space_logo.png",
     "publisher": "twopill",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.51.0"
     },

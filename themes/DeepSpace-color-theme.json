@@ -567,7 +567,7 @@
 		},
 		{
 			"name": "constant.character.other",
-			"scope":["constant.character.other", "constant.other.property ", "variable.other.constant.property "],
+			"scope":["constant.character.other", "constant.other.property ", "variable.other.constant.property", "support.constant.media"],
 			"settings": {
 				"foreground": "#9cd8f8"
 			}
@@ -586,8 +586,8 @@
 			}
 		},
 		{
-			"name": "Name interface",
-			"scope":["entity.name.type.interface", "keyword.control.export", "support.type.object.module"],
+			"name": "EXPORT",
+			"scope":["keyword.control.export", "support.type.object.module"],
 			"settings": {
 				"foreground": "#C586C0"
 			}
@@ -598,8 +598,42 @@
 			"settings": {
 				"foreground": "#f7f302"
 			}
+		},
+		{
+			"name": "ENUM VARIABLES",
+			"scope":["variable.other.enummember", "entity.name.type.enum"],
+			"settings": {
+				"foreground": "#31f51f"
+			}
+		},
+		{
+			"name": "Name Interface",
+			"scope":["entity.name.type.interface", "support.class"],
+			"settings": {
+				"foreground": "#f51fe3"
+			}
+		},
+		{
+			"name": "Interface scritta",
+			"scope":["storage.type.interface"],
+			"settings": {
+				"foreground": "#b702ff"
+			}
+		},
+		{
+			"name": "Enum scritta",
+			"scope":["storage.type.enum"],
+			"settings": {
+				"foreground": "#74f590"
+			}
+		},
+		{
+			"name": "SCSS name animation",
+			"scope":["meta.property-value"],
+			"settings": {
+				"foreground": "#FFE343"
+			}
 		}
-
 
 	],
 	"better-comments.tags": [
