@@ -2,6 +2,10 @@
 
 ## For the preview view the last part of this readme 
 
+## ✨ What's NEW:
+- Support for C.
+- Support for C++.
+- Partial support for Python.
 ## 📌  How to install?
 
 
@@ -45,7 +49,7 @@ Install on **Visual Studio Market** -> link: <a href="https://marketplace.visual
 ![image](https://user-images.githubusercontent.com/58731523/112748936-6d49a300-8fbf-11eb-9170-e3adb2fd4fec.png)
 
 
-1.0.1 Now Go !
+1.0.2 Now Go !
 
 ![image](https://user-images.githubusercontent.com/58731523/112748928-6589fe80-8fbf-11eb-9c3a-b3827a980e9a.png)
 
