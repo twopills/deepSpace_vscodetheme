@@ -492,7 +492,8 @@
 				"variable.other.constant.js",
 				"variable.other.property.js",
 				"variable.other.readwrite.js",
-				"entity.name.function.preprocessor.cpp"
+				"entity.name.function.preprocessor.cpp",
+				"meta.function-call.arguments.python"
 			],
 			"settings": {
 				"foreground": "#8EF9F3",
@@ -511,7 +512,9 @@
 				"support.function",
 				"entity.name.function",
 				"support.class.builtin",
-				"entity.name.namespace"
+				"entity.name.namespace",
+				"meta.function-call.python",
+				"constant.other.caps.python"
 			],
 			"settings": {
 				"foreground": "#ffe343",
@@ -549,7 +552,7 @@
 		},
 		{
 			"name": "{{}}",
-			"scope": "punctuation.definition.block ",
+			"scope": "punctuation.definition.block",
 			"settings": {
 				"foreground": "#dadada",
 				"fontStyle": ""
